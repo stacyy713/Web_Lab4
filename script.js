@@ -59,7 +59,7 @@ function smallerImage(){
     if(currHeight2 <= 160){
         alert("You have reached the minimum!");
     } else{
-        myImg2.style.width = (currWidth2 - 30) + "px";
-        myImg2.style.height = (currHeight2 - 30) + "px";
+        myImg2.style.width = (currWidth2 - 20) + "px";
+        myImg2.style.height = (currHeight2 - 20) + "px";
     }
 }
